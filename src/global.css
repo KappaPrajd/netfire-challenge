@@ -1,6 +1,12 @@
+:root {
+  --font-primary: 'Exo', sans-serif;
+  --font-secondary: 'Inter', sans-serif;
+}
+
 html,
 body {
   margin: 0;
   width: 100%;
   box-sizing: border-box;
+  font-family: var(--font-primary);
 }
