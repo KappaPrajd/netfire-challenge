@@ -1,0 +1,12 @@
+@import url('/src/global.css');
+
+.container {
+  background-color: var(--background-secondary);
+  border: 1px solid #827d7d;
+  border-radius: 50%;
+  width: 43px;
+  height: 43px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
