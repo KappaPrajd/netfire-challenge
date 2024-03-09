@@ -1,6 +1,12 @@
 :root {
   --font-primary: 'Exo', sans-serif;
   --font-secondary: 'Inter', sans-serif;
+
+  --background-primary: white;
+  --background-secondary: #d9d9d9;
+
+  --color-primary: #1c1b1b;
+  --color-secondary: #111010;
 }
 
 html,
@@ -8,5 +14,6 @@ body {
   margin: 0;
   width: 100%;
   box-sizing: border-box;
+  background-color: var(--background-primary);
   font-family: var(--font-primary);
 }

@@ -1,5 +1,7 @@
+import AdvertBar from '../views/AdvertBar';
+
 const Home = () => {
-  return <div>Home</div>;
+  return <AdvertBar />;
 };
 
 export default Home;
