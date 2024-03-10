@@ -1,7 +1,7 @@
 @import url('/src/global.css');
 
 .container {
-  height: 62px;
+  height: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
