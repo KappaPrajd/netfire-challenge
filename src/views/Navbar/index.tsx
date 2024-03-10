@@ -5,13 +5,13 @@ import s from './Navbar.module.css';
 
 const Navbar = () => {
   return (
-    <div className={s.container}>
+    <header className={s.container}>
       <div className={s.content}>
         <NavItems />
         <Logo />
         <Icons />
       </div>
-    </div>
+    </header>
   );
 };
 

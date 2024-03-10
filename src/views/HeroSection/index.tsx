@@ -8,13 +8,13 @@ const HeroSection = () => {
   const videoRef = useRef<HTMLVideoElement>(null);
 
   return (
-    <div className={s.container}>
+    <section className={s.container}>
       <Video ref={videoRef} />
 
       <div className={s.content}>
         <VideoControls videoRef={videoRef} />
       </div>
-    </div>
+    </section>
   );
 };
 
