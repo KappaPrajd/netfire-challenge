@@ -1,0 +1,11 @@
+.container {
+  cursor: pointer;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 1px solid #888d8e;
+  border-radius: 50%;
+  background-color: #101215;
+}
