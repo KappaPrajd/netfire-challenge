@@ -1,3 +1,5 @@
+@import url('/src/global.css');
+
 .container {
   display: flex;
   align-items: center;
@@ -7,15 +9,31 @@
 
 .content {
   height: 65%;
+  width: 70%;
   display: flex;
-  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .badge {
   height: 53px;
   width: 163px;
+  margin-bottom: 24px;
 }
 
 .badge div {
   font-weight: 500;
+}
+
+.description {
+  margin-bottom: 48px;
+}
+
+.link {
+  text-transform: uppercase;
+  font-family: var(--font-secondary);
+  font-weight: 600;
+  text-decoration: underline;
+  text-underline-offset: 2px;
+  letter-spacing: 1px;
 }

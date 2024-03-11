@@ -21,6 +21,9 @@ const Home = () => {
       <div className={s.example}>
         <ExampleSection />
       </div>
+      <div className={s.gradient}>
+        <GradientBox />
+      </div>
     </>
   );
 };

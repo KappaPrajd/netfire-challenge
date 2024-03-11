@@ -1,0 +1,9 @@
+.container {
+  font-size: 32px;
+  letter-spacing: -1.5px;
+}
+
+.container p {
+  margin: 0;
+  font-weight: 500;
+}
