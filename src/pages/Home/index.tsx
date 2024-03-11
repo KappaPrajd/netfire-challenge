@@ -1,9 +1,10 @@
-import GradientBox from '../../components/GradientBox';
-import AdvertBar from '../../views/AdvertBar';
-import ExampleSection from '../../views/ExampleSection';
-import Footer from '../../views/Footer';
-import HeroSection from '../../views/HeroSection';
-import Navbar from '../../views/Navbar';
+import GradientBox from '@components/GradientBox';
+import AdvertBar from '@views/AdvertBar';
+import ExampleSection from '@views/ExampleSection';
+import Footer from '@views/Footer';
+import HeroSection from '@views/HeroSection';
+import Navbar from '@views/Navbar';
+
 import s from './Home.module.css';
 
 const Home = () => {

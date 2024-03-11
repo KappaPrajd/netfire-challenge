@@ -1,4 +1,5 @@
-import SectionBadge from '../../components/SectionBadge';
+import SectionBadge from '@components/SectionBadge';
+
 import Description from './Description';
 import s from './ExampleSection.module.css';
 

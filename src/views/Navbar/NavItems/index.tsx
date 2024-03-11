@@ -1,4 +1,5 @@
-import NavItem from '../../../components/NavItem';
+import NavItem from '@components/NavItem';
+
 import s from './NavItems.module.css';
 
 const NavItems = () => {

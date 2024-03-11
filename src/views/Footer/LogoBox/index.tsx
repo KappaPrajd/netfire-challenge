@@ -1,4 +1,5 @@
-import Logo from '../../../components/Logo';
+import Logo from '@components/Logo';
+
 import s from './LogoBox.module.css';
 
 const LogoBox = () => {

@@ -1,6 +1,6 @@
+import SectionBadge from '@components/SectionBadge';
 import { useRef } from 'react';
 
-import SectionBadge from '../../components/SectionBadge';
 import Heading from './Heading';
 import s from './HeroSection.module.css';
 import Video from './Video';

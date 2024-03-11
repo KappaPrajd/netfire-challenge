@@ -1,7 +1,7 @@
+import StyledIcon from '@components/StyledIcon';
 import { IconBaseProps } from 'react-icons';
 import { MdAddShoppingCart, MdPerson, MdSearch } from 'react-icons/md';
 
-import StyledIcon from '../../../components/StyledIcon';
 import s from './Icons.module.css';
 
 const Icons = () => {

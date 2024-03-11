@@ -1,4 +1,5 @@
-import GradientText from '../../../components/GradientText';
+import GradientText from '@components/GradientText';
+
 import s from './Description.module.css';
 
 const Description = () => {
