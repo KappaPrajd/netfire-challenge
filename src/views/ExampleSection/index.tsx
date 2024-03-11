@@ -1,4 +1,4 @@
-import Badge from './Badge';
+import SectionBadge from '../../components/SectionBadge';
 import s from './ExampleSection.module.css';
 
 const ExampleSection = () => {
@@ -6,7 +6,7 @@ const ExampleSection = () => {
     <section className={s.container}>
       <div className={s.content}>
         <div className={s.badge}>
-          <Badge />
+          <SectionBadge>Example section</SectionBadge>
         </div>
       </div>
     </section>

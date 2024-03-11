@@ -15,3 +15,7 @@
   height: 53px;
   width: 163px;
 }
+
+.badge div {
+  font-weight: 500;
+}

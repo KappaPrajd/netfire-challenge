@@ -1,6 +1,6 @@
 import { useRef } from 'react';
 
-import Badge from './Badge';
+import SectionBadge from '../../components/SectionBadge';
 import Heading from './Heading';
 import s from './HeroSection.module.css';
 import Video from './Video';
@@ -15,7 +15,7 @@ const HeroSection = () => {
 
       <div className={s.content}>
         <div className={s.badge}>
-          <Badge />
+          <SectionBadge>Lorem ipsum</SectionBadge>
         </div>
         <div className={s.heading}>
           <Heading />

@@ -16,8 +16,14 @@
 }
 
 .badge {
-  width: 130px;
+  width: 133px;
+  height: 44px;
   margin-bottom: 32px;
+}
+
+.badge div {
+  color: white;
+  background-color: rgba(217, 217, 217, 0.19);
 }
 
 .heading {
