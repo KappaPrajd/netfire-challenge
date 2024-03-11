@@ -1,5 +1,6 @@
 import GradientBox from '../../components/GradientBox';
 import AdvertBar from '../../views/AdvertBar';
+import ExampleSection from '../../views/ExampleSection';
 import HeroSection from '../../views/HeroSection';
 import Navbar from '../../views/Navbar';
 import s from './Home.module.css';
@@ -16,6 +17,9 @@ const Home = () => {
       <Navbar />
       <div className={s.hero}>
         <HeroSection />
+      </div>
+      <div className={s.example}>
+        <ExampleSection />
       </div>
     </>
   );
