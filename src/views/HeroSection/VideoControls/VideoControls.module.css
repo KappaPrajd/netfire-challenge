@@ -7,7 +7,8 @@
   background-color: rgba(3, 2, 2, 0.3);
   border: 1px solid rgba(255, 255, 255, 0.2);
   border-radius: 10px;
-  padding: 16px 24px;
+  height: 94px;
+  padding: 0 32px;
 }
 
 .playPause {
@@ -21,4 +22,5 @@
 
 .time {
   width: 44px;
+  margin-left: 12px;
 }
