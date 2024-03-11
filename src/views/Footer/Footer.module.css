@@ -1,0 +1,23 @@
+@import url('/src/global.css');
+
+.container {
+  height: 100%;
+  background-color: var(--background-secondary);
+  display: flex;
+  justify-content: center;
+}
+
+.content {
+  width: 70%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logoBox {
+  width: 300px;
+}
+
+.copyright {
+  flex: 1 1 0;
+}
