@@ -7,6 +7,13 @@
 
   --color-primary: #1c1b1b;
   --color-secondary: #111010;
+
+  --gradient-primary: linear-gradient(
+    90deg,
+    #caea71 0%,
+    #844071 50.5%,
+    #404f84 100%
+  );
 }
 
 html,

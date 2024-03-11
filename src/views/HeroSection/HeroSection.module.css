@@ -13,9 +13,13 @@
   display: flex;
   justify-content: flex-end;
   flex-direction: column;
-  gap: 36px;
 }
 
 .badge {
   width: 130px;
+  margin-bottom: 32px;
+}
+
+.heading {
+  margin-bottom: 64px;
 }

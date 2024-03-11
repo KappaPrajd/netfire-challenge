@@ -1,0 +1,8 @@
+@import url('/src/global.css');
+
+.container {
+  font-size: 45px;
+  font-weight: 600;
+  color: white;
+  margin: 0;
+}
