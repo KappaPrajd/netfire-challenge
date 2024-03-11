@@ -1,5 +1,5 @@
+import Logo from '../../components/Logo';
 import Icons from './Icons';
-import Logo from './Logo';
 import NavItems from './NavItems';
 import s from './Navbar.module.css';
 
@@ -8,7 +8,9 @@ const Navbar = () => {
     <header className={s.container}>
       <div className={s.content}>
         <NavItems />
-        <Logo />
+        <div className={s.logo}>
+          <Logo />
+        </div>
         <Icons />
       </div>
     </header>

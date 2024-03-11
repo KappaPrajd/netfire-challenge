@@ -14,3 +14,14 @@
 .content > * {
   flex: 1 1 0px;
 }
+
+.logo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo img {
+  width: 65px;
+  height: 65px;
+}
