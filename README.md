@@ -26,6 +26,6 @@ npm run dev
 
 ## Notes
 
-- For CI/CD I have set up a simple pipeline that ensures the code is formatted accordingly to project config and it does not have any lint errors. If that's the case - it builds and deploys to Github Actions.
+- For CI/CD I have set up a simple pipeline that ensures the code is formatted accordingly to project config and it does not have any lint errors. If that's the case - it builds and deploys to Github Pages.
 - Logo and background video is included in project files. For production I would consider using cloud storage/CDN/CMS depending on the use case. For bigger files I would look for Adaptive Bitrate Streaming solution.
 - Project is using TS path aliases for cleaner imports.
