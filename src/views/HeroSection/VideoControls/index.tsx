@@ -13,7 +13,7 @@ const VideoControls = ({ videoRef }: VideoControlProps) => {
   useEffect(() => {
     const id = window.setInterval(() => {
       setCurrentTime(videoRef.current?.currentTime || 0); // sync state with video
-    }, 100);
+    }, 10); // low interval for better UX, no impact on performance detected
 
     return () => {
       window.clearInterval(id);
@@ -54,7 +54,9 @@ const VideoControls = ({ videoRef }: VideoControlProps) => {
           onInput={handleTimelineInput}
         />
       </div>
-      <PlaybackTime time={currentTime} />
+      <div className={s.time}>
+        <PlaybackTime time={currentTime} />
+      </div>
     </div>
   );
 };

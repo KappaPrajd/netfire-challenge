@@ -18,3 +18,7 @@
 .timeline {
   flex: 1 1 0;
 }
+
+.time {
+  width: 44px;
+}
